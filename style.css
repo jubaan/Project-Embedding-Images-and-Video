@@ -24,10 +24,15 @@ nav {
     flex: row wrap;
     background-color: white;
     align-items: center;
+    justify-content: left;
 }
 
 #youLogo {
     width: 80px;
+}
+
+.icon{
+    width: 16px;
 }
 
 #searchBar{
@@ -65,4 +70,19 @@ nav {
 .search-bar {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    padding: 50px;
+}
+
+.left-menu {
+    justify-content: left;
+}
+
+.center-menu {
+    justify-self: center;
 }
