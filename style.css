@@ -45,16 +45,21 @@
     font-size: 16px;
 
 } 
+
+
+#navbar {
+    width: 100%;
+    position: fixed;
+}
     
 nav {
     height: 56px;
-    width: 100rh;
+    width: 100%;
     display: flex;
     flex: row wrap;
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    position: relative;
     background-color: white;
 }
 
