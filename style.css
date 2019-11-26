@@ -246,6 +246,34 @@ button {
 
 
 #playlist {
-    margin: 56px 30px 35px 35px;
+    margin: 56px 30px 35px 35px;    
+}
+
+.video-thumbs {
+    display: flex;
+    flex: row wrap;
+    margin: 7px 0;
+}
+
+.video-thumbnail {
+    width: 170px;
+    height: 90px;
+}
+
+.video-info {
+    margin-left: 10px;
+    width: 230px;
+    height: 90px;
     text-overflow: ellipsis;
+}
+
+.video-info h1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.video-info p {
+    color: darkgray;
+    font-size: 13px;
+    font-weight: 400;
 }
