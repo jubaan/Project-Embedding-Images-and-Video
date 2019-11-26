@@ -285,3 +285,17 @@ button {
     padding-bottom: 15px;
     border-bottom: 1px solid #CCCCCC;
 }
+
+#up-next-options {
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#up-next-options p {
+    font-size: 13px;
+    font-weight: 700;
+    color: #525252;
+}
