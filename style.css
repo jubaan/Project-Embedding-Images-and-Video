@@ -54,16 +54,28 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: transparent;
-    border: 1px solid black;
+
 }
 
-
-
-
-#center-search-bar {
+ #left-menu, #center-search-bar {
     display: flex;
     flex: row wrap;
-    
+    align-items: center;
+}
+
+#left-menu {
+    margin: 30px;   
+}
+
+#left-menu button {
+    border: none;
+    background: transparent;
+    margin-right: 30px;
+}
+
+#logo {
+    width: 80px;
+    height: 32px;
 }
 
 #search-button {
