@@ -344,3 +344,16 @@ button {
 .reply {
     padding-left: 40%;
 }
+
+#suscribe-button {
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+#suscribe {
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
