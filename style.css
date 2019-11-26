@@ -1,8 +1,58 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+} 
+
+    
 nav {
-    height: 150px;
+    height: 56px;
     display: flex;
     flex: row wrap;
     justify-content: space-around;
+    align-items: center;
+    background: transparent;
 }
 
 #center-search-bar {
@@ -10,24 +60,39 @@ nav {
     flex: row wrap;
 }
 
-
-
 #search-button {
+    border-radius: 0 2px 2px 0;
     border: 1px solid #CCCCCC;
-    border-radius: 0 3px 3px 0;
     height: 32px;
     width: 65px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-button:hover {
     background-color: #F0F0F0;
 }
 
 #search {
     border: 1px solid #CCCCCC;
-    border-radius: 3px 0 0 3px;
-    height: 30px;
-    width: 573px;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    height: 32px;
+    width: 570px;
+    padding: 0 10px;
 }
 
 #search:focus {
     border: 1px solid blue;
-    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.2); 
+    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.3); 
+}
+
+#search-icon {
+    width: 14px;
+}
+
+#search-icon:hover {
+    shad
 }
