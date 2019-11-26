@@ -210,7 +210,6 @@ button {
 
 .t-series-logo {
     padding-left: 5%;
-    padding-top: 
 }
 
 .subscribers-text {
@@ -218,7 +217,7 @@ button {
 }
 
 .subscribe-logo {
-   padding-left: 35%; 
+   padding-left: 37.5%; 
 }
 
 #subscribe {
@@ -227,3 +226,7 @@ button {
 
 }
 
+.bell {
+    padding-top: 3.5%;
+    padding-left: 0.5%;
+}
