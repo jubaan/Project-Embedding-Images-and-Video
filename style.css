@@ -168,7 +168,6 @@ nav {
 
 .t-series-logo {
     padding-left: 5%;
-    padding-top: 
 }
 
 .subscribers-text {
@@ -176,7 +175,7 @@ nav {
 }
 
 .subscribe-logo {
-   padding-left: 35%; 
+   padding-left: 37.5%; 
 }
 
 #subscribe {
@@ -185,3 +184,7 @@ nav {
 
 }
 
+.bell {
+    padding-top: 3.5%;
+    padding-left: 0.5%;
+}
