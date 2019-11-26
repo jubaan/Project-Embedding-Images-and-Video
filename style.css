@@ -60,6 +60,14 @@ body {
 
 } 
 
+body {
+    background-color: #F9F9F9;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 65vw 35vw;
+}
 
 #navbar {
     width: 100%;
@@ -97,10 +105,6 @@ button {
 #logo {
     width: 80px;
     height: 32px;
-}
-    
-.icon{
-    width: 16px;
 }
 
 #search-button {
@@ -147,6 +151,12 @@ button {
     font-weight: 700;
 }
 
+#main-video {
+    margin-top: 30px;
+    grid-column: 1 / 2;
+}
+
+
 .fa-user-circle {
     margin-right: 10px;
     width: 15px;
@@ -154,6 +164,10 @@ button {
 .search-bar {
     margin: 0;
     padding: 0;
+}
+
+.icon{
+    width: 16px;
 }
 
 .container {
@@ -229,4 +243,59 @@ button {
 .bell {
     padding-top: 3.5%;
     padding-left: 0.5%;
+}
+
+
+#playlist {
+    margin: 56px 30px 35px 35px;  
+    grid-column: 2 / 3; 
+}
+
+.video-thumbs {
+    display: flex;
+    flex: row wrap;
+    margin: 7px 0;
+}
+
+.video-thumbnail {
+    width: 170px;
+    height: 90px;
+}
+
+.video-info {
+    margin-left: 10px;
+    width: 230px;
+    height: 90px;
+    text-overflow: ellipsis;
+}
+
+.video-info h1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.video-info p {
+    color: darkgray;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#up-next {
+    margin: 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#up-next-options {
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#up-next-options p {
+    font-size: 13px;
+    font-weight: 700;
+    color: #525252;
 }
