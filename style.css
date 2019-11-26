@@ -136,10 +136,6 @@ button {
     width: 20px;
 }
 
-#search-icon:hover {
-
-}
-
 #sign-in {
     display: flex;
     flex: row wrap;
@@ -207,8 +203,6 @@ button {
 .icon {
     padding-left: 20px;
 }
-<<<<<<< HEAD
-=======
 
 .subscribe {
     padding-top: 3%;
@@ -233,4 +227,3 @@ button {
 
 }
 
->>>>>>> b63963b344dbfd5b476c5836179a8ac286a49b30
