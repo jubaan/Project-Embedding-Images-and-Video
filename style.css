@@ -161,3 +161,27 @@ nav {
 .icon {
     padding-left: 20px;
 }
+
+.subscribe {
+    padding-top: 3%;
+}
+
+.t-series-logo {
+    padding-left: 5%;
+    padding-top: 
+}
+
+.subscribers-text {
+    padding-left: 2%;
+}
+
+.subscribe-logo {
+   padding-left: 35%; 
+}
+
+#subscribe {
+    display: flex;
+    flex: wrap;
+
+}
+
