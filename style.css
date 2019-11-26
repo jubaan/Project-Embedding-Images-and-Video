@@ -153,6 +153,7 @@ button {
 
 #main-video {
     margin-top: 30px;
+    grid-column: 1 / 2;
 }
 
 
@@ -246,7 +247,8 @@ button {
 
 
 #playlist {
-    margin: 56px 30px 35px 35px;    
+    margin: 56px 30px 35px 35px;  
+    grid-column: 2 / 3; 
 }
 
 .video-thumbs {
@@ -276,4 +278,10 @@ button {
     color: darkgray;
     font-size: 13px;
     font-weight: 400;
+}
+
+#up-next {
+    margin: 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #CCCCCC;
 }
