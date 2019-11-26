@@ -48,16 +48,22 @@
     
 nav {
     height: 56px;
+    width: 100rh;
     display: flex;
     flex: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: transparent;
+    border: 1px solid black;
 }
+
+
+
 
 #center-search-bar {
     display: flex;
     flex: row wrap;
+    
 }
 
 #search-button {
@@ -90,9 +96,9 @@ nav {
 }
 
 #search-icon {
-    width: 14px;
+    width: 20px;
 }
 
 #search-icon:hover {
-    shad
+
 }
