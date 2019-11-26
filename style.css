@@ -60,6 +60,13 @@ body {
 
 } 
 
+body {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
 
 #navbar {
     width: 100%;
