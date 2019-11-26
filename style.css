@@ -61,12 +61,13 @@ body {
 } 
 
 body {
-    background-color: white;
+    background-color: #F9F9F9;
 }
 
 .main-grid {
     display: grid;
     grid-template-columns: 65vw 35vw;
+    grid-template-rows: 100% 100% 100%;
 }
 
 #navbar {
@@ -248,7 +249,8 @@ button {
 
 #playlist {
     margin: 56px 30px 35px 35px;  
-    grid-column: 2 / 3; 
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
 }
 
 .video-thumbs {
@@ -341,4 +343,17 @@ button {
 
 .reply {
     padding-left: 40%;
+}
+
+#suscribe-button {
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+#suscribe {
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    justify-content: space-between;
 }
