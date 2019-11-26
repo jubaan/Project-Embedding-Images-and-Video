@@ -207,3 +207,30 @@ button {
 .icon {
     padding-left: 20px;
 }
+<<<<<<< HEAD
+=======
+
+.subscribe {
+    padding-top: 3%;
+}
+
+.t-series-logo {
+    padding-left: 5%;
+    padding-top: 
+}
+
+.subscribers-text {
+    padding-left: 2%;
+}
+
+.subscribe-logo {
+   padding-left: 35%; 
+}
+
+#subscribe {
+    display: flex;
+    flex: wrap;
+
+}
+
+>>>>>>> b63963b344dbfd5b476c5836179a8ac286a49b30
