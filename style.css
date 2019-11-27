@@ -67,7 +67,7 @@ body {
 .main-grid {
     display: grid;
     grid-template-columns: 65vw 35vw;
-    grid-template-rows: 100% 100% 100%;
+    grid-template-rows: 100% 100% 100% 100%;
 }
 
 #navbar {
@@ -415,14 +415,62 @@ input:checked + .slider:before {
     margin-right: 10px;
 }
 
-.footer {
-    text-align: center;
-    padding: 25% 0 15% 0;
-}
-
 .show-more {
     padding-top: 3%;
     color: grey;
 }
 
+#comment-section {
+    grid-column: 1 / 2;
+}
 
+#footer {
+    height: 170px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.footer-links {
+    margin: 10px 30px;
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#links-0 {
+    padding: 20px 0 15px 0;
+    margin-right: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#links-0 i {
+    margin-right: 3px;
+}
+
+.footer-button {
+    color: black;
+    font-size: 12px;
+    background-color: #F9F9F9;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 2px;
+    border: 1px solid #CCCCCC;
+}
+
+#links-1 a {
+    margin-top: 15px;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#links-2 a {
+    color: gray;
+    font-size: 13px;
+}
