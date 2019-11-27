@@ -383,15 +383,6 @@ button {
         display: none;
 }
 
-#toggle {
-    display: flex;
-    flex: row flex;
-}
-
-#toggle p {
-    margin-right: 10px;
-}
-
 .slider:before {
     position: absolute;
     content: "";
@@ -411,4 +402,13 @@ input:checked + .slider {
 
 input:checked + .slider:before {
     transform: translateX(15px);
+}
+
+#toggle {
+    display: flex;
+    flex: row flex;
+}
+
+#toggle p {
+    margin-right: 10px;
 }
