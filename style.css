@@ -204,6 +204,7 @@ button {
 
 .one-line {
     display: inline-block;
+    color: gray;
 
 }
 
@@ -343,6 +344,7 @@ button {
 
 .reply {
     padding-left: 40%;
+    color: grey;
 }
 
 #suscribe-button {
@@ -412,3 +414,15 @@ input:checked + .slider:before {
 #toggle p {
     margin-right: 10px;
 }
+
+.footer {
+    text-align: center;
+    padding: 25% 0 15% 0;
+}
+
+.show-more {
+    padding-top: 3%;
+    color: grey;
+}
+
+
